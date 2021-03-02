@@ -1,0 +1,9 @@
+---
+ 
+deployment:
+ 
+ tasks:
+ 
+ - export DEPLOYPATH=/home/alokkaja/alokkajasa.com
+ 
+ - /usr/bin/rsync -Paz * $DEPLOYPATH --delete

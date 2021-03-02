@@ -4,6 +4,6 @@ deployment:
  
  tasks:
  
- - export DEPLOYPATH=/home/alokkaja/alokkajasa.com
+ - export DEPLOYPATH=/home/alokkaja/public_html
  
  - /usr/bin/rsync -Paz * $DEPLOYPATH --delete
